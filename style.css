@@ -3,3 +3,8 @@ p{
     border: dashed;
     color: whitesmoke;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

@@ -15,5 +15,14 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: white;
+}
+a.navbar:hover, a.navbar:focus{
+  opacity: 0.25;
+  transition: 0.2s;
+  color: yellow;
+  background-color: orangered;
+}
+img:hover{
+  
 }

@@ -1,0 +1,45 @@
+@use 'base';
+$warnaPrimer: blue;
+$warnaInverse: white;
+$border: 3px solid yellow;
+$padding: 3em;
+
+.primer {
+    background-color: $warnaPrimer;
+    color: $warnaInverse;
+    border: $border;
+    padding: $padding;
+    font: 150% base.$font_digunakan;
+}
+
+.inverse-primer {
+    background-color: $warnaInverse;
+    color: $warnaPrimer;
+    border: $border;
+    padding: $padding;
+    
+}
+
+nav{
+    text-align: left;
+    background-color: $warnaInverse;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+                color: $warnaPrimer;
+            }
+            a:hover{
+                background-color: $warnaPrimer;
+                color: $warnaInverse;
+            }
+
+        }
+    }
+}

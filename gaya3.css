@@ -1,0 +1,41 @@
+h1 {
+  color: aqua;
+  margin: auto;
+}
+
+.Keterangan {
+  color: red;
+}
+
+h2 {
+  color: mediumaquamarine;
+}
+
+header {
+  width: 960px;
+  height: 50px;
+  background-color: yellow;
+}
+
+main {
+  width: 672px;
+  height: 150px;
+  background-color: green;
+}
+
+footer {
+  width: 960px;
+  height: 50px;
+  background-color: grey;
+}
+
+aside {
+  width: 208px;
+  height: 150px;
+}
+
+.container {
+  width: 960px;
+  height: auto;
+  background-color: cadetblue;
+}/*# sourceMappingURL=gaya3.css.map */

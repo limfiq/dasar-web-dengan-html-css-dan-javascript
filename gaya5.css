@@ -1,0 +1,50 @@
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container1 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.flex-container2 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-direction: column-reverse;
+}
+
+.flex-container3 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-direction: row;
+}/*# sourceMappingURL=gaya5.css.map */
